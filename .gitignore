@@ -11,6 +11,5 @@ venv/
 pip-wheel-metadata/
 
 # Local reports/examples not for GitHub
-halma-example/
 Halma_Part2_Report.pdf
 Halma_Part2_Report_Template.docx
