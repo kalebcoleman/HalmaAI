@@ -16,12 +16,8 @@ try:  # pragma: no cover - import shim
     from .board import HalmaBoard  # type: ignore
     from .gui import HalmaGUI  # type: ignore
 except ImportError:  # pragma: no cover
-    import os
-    import sys
-
-    sys.path.append(os.path.dirname(__file__))
-    from board import HalmaBoard  # type: ignore
-    from gui import HalmaGUI  # type: ignore
+    from halma.board import HalmaBoard  # type: ignore
+    from halma.gui import HalmaGUI  # type: ignore
 
 
 def build_parser() -> argparse.ArgumentParser:

@@ -21,8 +21,8 @@ try:  # pragma: no cover
     from .ai import HalmaAI, Move  # type: ignore
     from .board import HalmaBoard  # type: ignore
 except ImportError:  # pragma: no cover
-    from ai import HalmaAI, Move  # type: ignore
-    from board import HalmaBoard  # type: ignore
+    from halma.ai import HalmaAI, Move  # type: ignore
+    from halma.board import HalmaBoard  # type: ignore
 
 
 @dataclass

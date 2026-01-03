@@ -18,7 +18,7 @@ from typing import Dict, Iterable, List, Optional, Tuple
 try:  # pragma: no cover - import shim
     from .board import Coord, HalmaBoard  # type: ignore
 except ImportError:  # pragma: no cover
-    from board import Coord, HalmaBoard  # type: ignore
+    from halma.board import Coord, HalmaBoard  # type: ignore
 
 
 @dataclass(frozen=True)

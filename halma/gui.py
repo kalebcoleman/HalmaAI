@@ -19,8 +19,8 @@ try:  # pragma: no cover
     from .ai import HalmaAI, Move, SearchStats  # type: ignore
     from .board import Coord, HalmaBoard  # type: ignore
 except ImportError:  # pragma: no cover
-    from ai import HalmaAI, Move, SearchStats  # type: ignore
-    from board import Coord, HalmaBoard  # type: ignore
+    from halma.ai import HalmaAI, Move, SearchStats  # type: ignore
+    from halma.board import Coord, HalmaBoard  # type: ignore
 
 
 @dataclass(frozen=True)
